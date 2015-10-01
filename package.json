@@ -1,0 +1,25 @@
+{
+  "name": "application-name",
+  "version": "0.0.0",
+  "description": "Node.js app boilerplate using Sass, Jade and CoffeeScript with Gulp.",
+  "main": "out/app.js",
+  "scripts": {
+    "start": "node out/app.js",
+    "test": "node node_modules/.bin/jasmine JASMINE_CONFIG_PATH=tests/support/jasmine.json"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/krotovic/node-boilerplate.git"
+    }
+  ],
+  "author": "",
+  "license": "CC",
+  "devDependencies": {
+    "gulp-coffee": "~2.3.1",
+    "gulp": "~3.9.0",
+    "jasmine": "~2.3.2",
+    "gulp-jade": "~1.1.0",
+    "gulp-sass": "~2.0.4"
+  }
+}
